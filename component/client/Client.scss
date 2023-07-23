@@ -1,0 +1,83 @@
+// .client-container{
+//         width: 98%;
+//         margin: auto;
+    
+//     }
+    // .client-row{
+    //     display: flex;
+    //     flex-wrap: wrap;
+    //     padding-bottom:40px ;
+        
+    // }
+    .client-card img{
+        width: 100%;
+        padding: 0 50px ;
+        filter: grayscale(20);
+    }
+    .client-col{
+       
+        padding: 23px;
+        border: 1px solid;
+        
+    }
+
+
+.client{
+    color:rgb(49, 43, 43);
+    text-align: center;
+    padding-bottom: 30px;
+}
+img:hover{
+    filter:none;
+    transform:scale(1.2);
+}
+@media (min-width:320px){
+    .client-container{
+        width: 98%;
+        margin: auto;
+       
+    }
+    .client-row{
+        display: flex;
+        flex-wrap:wrap;
+        padding-bottom:40px ;
+}
+    .client-col{
+        width: 50%;
+    }
+   
+}
+@media (min-width:620px){
+    .client-container{
+        width: 90%;
+        margin: auto;
+    
+    }
+    .client-row{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom:40px ;
+        
+    }
+    .client-col{
+        width: 50%;
+}
+    
+}
+@media(min-width:1000px){
+    .client-container{
+        width: 80%;
+        margin: auto;
+    
+    }
+    .client-row{
+        display: flex;
+        flex-wrap:wrap;
+        padding-bottom:40px ;
+        
+    }
+    .client-col{
+        width: 25%;
+}
+   
+}
